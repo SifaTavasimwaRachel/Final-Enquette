@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_question_answer_black_24dp"
+            android:title="Questionnaires" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_accessible_black_24dp"
+            android:title="Utilisateurs" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_pie_chart_black_24dp"
+            android:title="Statistique" />
+
+    </group>
+
+
+
+</menu>
